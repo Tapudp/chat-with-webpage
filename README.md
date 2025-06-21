@@ -14,13 +14,16 @@ A web app and Chrome extension that lets users chat with the content of web page
 ✅ Auto-scrolling chat interface  
 
 ## Project Structure (Monorepo)
+```
+chat-with-webpage/
 ├── packages/
-│ ├── web-app/ # React Vite frontend
-│ ├── server/ # Express proxy server
-│ ├── extension/ # Chrome extension (COMPLETED)
-│ └── ui/ # Shared UI components
-├── package.json # Root workspace config
+│   ├── web-app/          # React Vite frontend
+│   ├── server/           # Express proxy server
+│   ├── extension/        # Chrome extension (COMPLETED)
+│   └── ui/               # Shared UI components
+├── package.json          # Root workspace config
 └── README.md
+```
 
 
 ## Setup Instructions

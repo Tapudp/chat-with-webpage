@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "paths": {
+      "@web-app/components/*": ["../../web-app/src/components/*"],
+      "@web-app/types": ["../../web-app/src/types.ts"]
+    }
+  }
+}

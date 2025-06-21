@@ -144,3 +144,9 @@ pnpm --filter @chat-with-webpage/extension build
     1. Web: Test with various URLs
     2. Extension: Test on different site types
     3. API: Use Postman for endpoint verification
+
+
+## Demo videos
+1. ⁠On the webpage itself : https://youtu.be/lVBf-zVKTvs
+2. ⁠⁠On the browser extension : https://youtu.be/SXnecLT9gkI
+3. web-app demo video from the beginning : https://youtu.be/XhCV2k2ihzo

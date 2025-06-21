@@ -1,0 +1,22 @@
+{
+  "name": "chat-with-webpage",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web-app dev",
+    "dev:server": "pnpm --filter @chat-with-webpage/server dev",
+    "dev": "concurrently \"pnpm dev:server\" \"pnpm dev:web\"",
+    "dev:ext": "pnpm --filter extension dev",
+    "build": "pnpm --parallel --filter web-app build --filter extension build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631",
+  "devDependencies": {
+    "@types/chrome": "^0.0.326",
+    "@types/node": "^24.0.3",
+    "concurrently": "^9.1.2",
+    "tsup": "^8.5.0",
+    "typescript": "~5.8.3"
+  }
+}
